@@ -5,6 +5,7 @@
 }
 /* LOGO */
 .footer__logo-wrap {
+	display: block;
 	margin-bottom: 36px;
 }
 .footer__logo {
@@ -39,12 +40,18 @@
 
 	font-weight: 600;
 	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.footer__social-list > li > a:hover,
+.footer__menu > li > a:hover {
+	color: #f12869;
 }
 .footer__menu > li {
 	margin-left: 24px;
 }
 .footer__menu > li.footer__item--active > a {
 	color: #f12869;
+	text-decoration: underline;
 }
 .footer__coppyright {
 	text-align: center;
