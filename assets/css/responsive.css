@@ -66,6 +66,9 @@
 }
 /* MOBILE */
 @media only screen and (max-width: 739px) {
+	.hide-on-mobile {
+		display: none;
+	}
   .top-bar,
   .top-nav,
   .about {
